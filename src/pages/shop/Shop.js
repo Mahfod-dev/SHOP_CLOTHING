@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { SHOP_DATA } from './shop.data'
-import PreviewCollection from '../preview-collection/PreviewCollection'
+import PreviewCollection from '../../components/preview-collection/PreviewCollection'
 
 console.log(SHOP_DATA)
 

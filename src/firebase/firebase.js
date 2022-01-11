@@ -1,9 +1,11 @@
+// const dotenv = require('dotenv').config()
+
 import firebase from 'firebase/compat/app'
 import 'firebase/compat/firestore'
 import 'firebase/compat/auth'
 
 const config = {
-	apiKey: 'AIzaSyAx2DqPUwFT-WbHVXMgTeA2es04gdOM25w',
+	apiKey: process.env.REACT_APP_KEY,
 	authDomain: 'shop-clothing-7b14d.firebaseapp.com',
 	projectId: 'shop-clothing-7b14d',
 	storageBucket: 'shop-clothing-7b14d.appspot.com',
